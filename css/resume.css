@@ -1,0 +1,292 @@
+html {
+    box-sizing: border-box;
+    background-color: rgb(250, 254, 255);
+    font-size: 16px;
+    min-width: 1100px;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 1s;
+}
+
+a:hover {
+    color: rgb(0, 153, 230);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 10px 0;
+    border-bottom: solid 2px rgba(128, 128, 128, 0.422);
+    border-top: solid 2px rgba(128, 128, 128, 0.422);
+}
+
+
+/* header section */
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+#header_logo img {
+    width: 15%;
+}
+
+.menu_list {
+    display: flex;
+    gap: 0 3em;
+}
+
+.menu_item {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+/* main section */
+
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 70px;
+}
+.banner_bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.banner_bg img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    max-height: 300px;
+    filter: blur(2px);
+    opacity: 0.7;
+}
+
+.banner_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.banner_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.banner_logo img {
+    width: 25%;
+}
+
+.banner_title {
+    font-size: 3em;
+}
+
+/* resume section */
+
+.resume {
+    margin-bottom: 80px;
+}
+
+.resume-title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.resume-content {
+    display: flex;
+    height: 1200px;
+    border: solid 1px rgba(0, 191, 255, 0.341);
+}
+
+.resume-1col {
+    width: 35%;
+    background-color: rgba(26, 170, 231, 0.679);
+    padding: 20px;
+}
+
+.resume-2col {
+    width: 65%;
+    padding: 20px 40px;
+}
+
+.myPhoto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.myPhoto-img {
+    width: 300px;
+    overflow: hidden;
+}
+
+.myPhoto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.resume-contucts, .resume-persInfo, .resume-persSkills, .resume-hobby {
+    padding-left: 70px;
+}
+
+.resume-persSkills ul, .resume-hobby ul{
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.contuct-link {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.contuct-link img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+hr {
+    border-color: rgb(4, 172, 213);
+    margin: 30px 0;
+}
+
+.resume-header {
+    padding: 100px 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.resume-header em {
+    font-size: 0.8em;
+}
+
+.school-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.school-name {
+    width: 30%;
+}
+
+.school-extraInfo {
+    width: 55%;
+}
+
+.resume-hardSkills-content {
+    display: flex;
+}
+
+.resume-hardSkills-col1 {
+    margin-right: 70px;
+}
+
+.hard-skill {
+    display: flex;
+}
+
+.skill-name {
+    font-size: 1.2em;
+}
+
+.star-rate {
+    display: flex;
+    margin: 0 0 10px 10px ;
+}
+
+.star-rate img {
+    width: 20px;
+}
+
+
+/* footer section */
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(96, 209, 209, 0.27);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    line-height: 2em;
+}
+
+.footer-logo img {
+    width: 50%;
+}
+
+h3 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+.footer-menu {
+    margin-top: 20px;
+}
+
+.footer-contacts {
+    margin-top: 20px;
+}
+
+.contuct-link {
+    display: flex;
+}
+
+.contuct-link img {
+    width: 20px;
+}
+
+.contuct-link a {
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-extra hr {
+    border-color: rgba(128, 128, 128, 0.16);
+}
+
+.footer-extra em {
+    display: block;
+    margin: 20px 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+

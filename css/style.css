@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* main section */
+
+/* banner section */
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.banner_bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;  
+    background-color: black;
+}
+
+.banner_bg img{
+    display: block;
+    width: 100%;
+    height: 100vb;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.banner-content-border { 
+    width: 92%;
+    height: 85vb;
+    border: solid 10px rgba(0, 0, 0, 0.688);
+    margin: auto;
+    margin-top: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content-bg {
+    width: 40%;
+    height: 40vb;
+    background-color: rgba(0, 0, 0, 0.688);
+    box-shadow: 0 0 4em 1.5em rgb(108, 108, 108);
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.banner-text h1{
+    font-family: "Lobster", sans-serif;
+    margin: 2em 0 1em;
+}
+
+.banner-text h2{
+    font-family: "Lobster", sans-serif;
+    font-size: 2em;
+    margin-bottom:  0.5em;
+}
+
+hr {
+    margin: 3.2em 0 1.2em; 
+    /* margin: 7vb 0 2vb; */
+    width: 100%;
+    border-color: aliceblue;
+}
+
+/* header section */
+
+.header_content {
+    max-width: 40%;
+}
+
+.menu_list {
+    display: flex;
+    gap: 0 3.5em;
+}
+
+.menu_item {
+    font-size: 1.3em;
+}
